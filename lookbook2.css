@@ -367,7 +367,7 @@ body {
   font-size: 13px;
   font-weight: 400;
   background: #333333;
-  color: #999999;
+  color: #c0bcbc;
   padding: 18px 0;
 }
 
@@ -432,13 +432,13 @@ body {
 .wrap-1 {
   line-height: 45px;
   background: #333333;
-  color: #777777;
+  color: #e9e6e6;
   font-weight: 400;
 }
 
 .wrap-1 a {
   font-size: 13px;
-  color: #999999;
+  color: #e9e6e6;
   font-weight: 500;
   line-height: 45px;
   padding: 15px 15px;
@@ -451,7 +451,7 @@ body {
 }
 
 .wrap-1 select {
-  color: #777777;
+  color: #e9e6e6;
 }
 
 #cart {
@@ -723,7 +723,7 @@ body {
   text-shadow: #a09d9e 1px 0 10px;
 }
 
-.LOOKBOOK .text4 h3 {
+.LOOKBOOK .text4 h2 {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 33px;
@@ -739,7 +739,7 @@ body {
 .LOOKBOOK .text4 .pg {
   margin: 15px 0;
   font-size: 15px;
-  color: #727272;
+  color: #352c2c;
 }
 
 .LOOKBOOK .viewnow {

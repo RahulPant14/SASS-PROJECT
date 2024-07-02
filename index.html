@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/BRAND.BG1.png" type="image/x-icon">
     <title>AVENUE FASHION</title>
+    <meta name="description" content="Avenue Fashion is a multipage website using SCSS.">
     <link rel="stylesheet" href="INDEX.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
@@ -17,13 +19,14 @@
         
                 <div class="row justify-space-bet">
                     <div class="select">
-                        <label for="currency">Currency:</label>
+                        <label for="currency">Currency:
                             <select class="select" name="currency" id="currency">
                               <option value="INR">INR</option>
                               <option value="USD">USD</option>
                               <option value="POUND">POUND</option>
                               <option value="TAKA">TAKA</option>
                             </select>
+                        </label>
                     </div>
                     
                     <div class=" flex justify-space-bet">
@@ -37,15 +40,16 @@
                                 <li><a  href="SIGNUP.html" target="_parent">Signin</a></li>
                             </ul>
                         </div>
-                                <div class="cart mr">
-                                    <label><span class="fa fa-shopping-cart select" aria-hidden="true"></span>
-                                    <select class="select" name="cart" id="cart">
-                                        <option value="#">Empty</option>
-                                        <option value="#">Empty 2</option>
-                                        <option value="#">Empty 3</option>
-                                    </select>
-                                </label>
-                                </div>
+                                <form>
+                                    <div class="cart mr">
+                                        <span class="fa fa-shopping-cart select" aria-hidden="true"></span>
+                                        <select aria-label="cart" class="select" name="cart" id="cart">
+                                            <option value="#">Empty</option>
+                                            <option value="#">Empty 2</option>
+                                            <option value="#">Empty 3</option>
+                                        </select>
+                                    </div>
+                                </form>
                     </div>
                     </div>
             </div>
@@ -318,7 +322,7 @@
                         <div class="col-6"> <img src="IMG/lookbook1.png" alt="pic8" width="237" height="489"></div>
                         <div class="col-6">
                             <div class="text4">
-                                <h3>MEN'S</h3>
+                                <h2>MEN'S</h2>
                                 <p class="lookbook">LOOK BOOK</p>
                                 <p class="pg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi omnis aspernatur placeat dolorum qui animi quo unde!</p>
                                 <div class="viewnow"><a href="#">VIEW NOW</a></div>
@@ -334,7 +338,7 @@
                         <div class="col-6"> <img src="IMG/lookbook2.png" alt="pic8" width="237" height="489"></div>
                         <div class="col-6">
                             <div class="text4">
-                                <h3 class="pic2">WOMEN'S</h3>
+                                <h2 class="pic2">WOMEN'S</h2>
                                 <p class="lookbook">LOOK BOOK</p>
                                 <p class="pg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi omnis aspernatur placeat dolorum qui animi quo unde!</p>
                                 <div class="viewnow"><a href="#">VIEW NOW</a></div>
@@ -350,7 +354,7 @@
                         <div class="col-6"> <img src="IMG/lookbook1.png" alt="pic8" width="237" height="489"></div>
                         <div class="col-6">
                             <div class="text4">
-                                <h3>YOUR</h3>
+                                <h2>YOUR</h2>
                                 <p class="lookbook">LOOK BOOK</p>
                                 <p class="pg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi omnis aspernatur placeat dolorum qui animi quo unde!</p>
                                 <div class="viewnow"><a href="#">VIEW NOW</a></div>
@@ -432,9 +436,9 @@
                 <div class="social">
                     <ul class="flex justify-center">
                         <li><a aria-label="facebook" href="#"><span class="fa fa-facebook-f"></span></a></li>
-                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                        <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                        <li><a aria-label="twitter" href="#"><span class="fa fa-twitter"></span></a></li>
+                        <li><a aria-label="instagram" href="#"><span class="fa fa-instagram"></span></a></li>
+                        <li><a aria-label="pinterest" href="#"><span class="fa fa-pinterest"></span></a></li>
                     </ul>
                 </div>
             </div>
